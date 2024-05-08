@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Ventas</title>
+    <style>
+        .venta {
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .venta img {
+            max-width: 100px; /* Tamaño máximo de la imagen */
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .venta-status {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mis Ventas</h1>
+
+        <!-- Ventas realizadas -->
+        <h2>Ventas Realizadas</h2>
+        <div class="venta">
+            <h3>Nombre del comprador</h3>
+            <img src="imagen1.jpg" alt="Imagen pequeña">
+            <p>Fecha de venta: 01/05/2024</p>
+            <p>Precio de venta: $5000</p>
+            <p class="venta-status">Realizada</p>
+        </div>
+
+        <div class="venta">
+            <h3>Otro comprador</h3>
+            <img src="imagen2.jpg" alt="Imagen pequeña">
+            <p>Fecha de venta: 10/06/2024</p>
+            <p>Precio de venta: $7000</p>
+            <p class="venta-status">Realizada</p>
+        </div>
+
+        <!-- Ventas en proceso -->
+        <h2>Ventas en Proceso</h2>
+        <div class="venta">
+            <h3>Comprador en proceso</h3>
+            <img src="imagen3.jpg" alt="Imagen pequeña">
+            <p>Fecha de solicitud: 05/07/2024</p>
+            <p>Precio solicitado: $8000</p>
+            <p class="venta-status">En proceso</p>
+        </div>
+
+        <div class="venta">
+            <h3>Otro comprador en proceso</h3>
+            <img src="imagen4.jpg" alt="Imagen pequeña">
+            <p>Fecha de solicitud: 20/07/2024</p>
+            <p>Precio solicitado: $6000</p>
+            <p class="venta-status">En proceso</p>
+        </div>
+    </div>
+</body>
+</html>
